@@ -8,7 +8,6 @@ spec:
   selector:
     matchLabels:
       app: hello-world
-  replicas: 2
   template:
     metadata:
       labels:
@@ -16,7 +15,7 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: andreamedia/simple-react:helloworld
+        image: andreamedia/simple-frontend:helloworld2
         ports:
         - containerPort: 80
         resources:
