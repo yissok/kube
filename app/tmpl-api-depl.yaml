@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: hello-world-backend
-        image: andreamedia/simple-backend:helloworld2
+        image: andreamedia/simple-backend:helloworld
         ports:
         - containerPort: 8080

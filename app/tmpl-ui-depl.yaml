@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: andreamedia/simple-frontend:helloworld2
+        image: andreamedia/simple-react:helloworld
         ports:
         - containerPort: 80
         resources:
