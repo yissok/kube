@@ -38,7 +38,7 @@ spec:
       port: 80
       targetPort: 3000
       nodePort: 30000
-  type: NodePort
+  type: LoadBalancer
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -73,4 +73,5 @@ spec:
     port: 8080
     targetPort: 8080
     nodePort: 30003
-  type: NodePort
+  type: LoadBalancer
+  
