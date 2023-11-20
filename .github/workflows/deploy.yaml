@@ -3,14 +3,14 @@ name: Deploy to GKE
 on:
   push:
     branches:
-      - prod
+      - main
 
 env:
   PROJECT_ID: fullstack-400006
   PROJECT_NUMBER: 367480870387
 
   CLUSTER: fullstack-24-09-2023-cluster
-  CLUSTER_ZONE: us-west1-b
+  CLUSTER_ZONE: us-west1
 
   IMAGE: clouddemo
 
